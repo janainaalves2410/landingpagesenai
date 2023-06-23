@@ -210,3 +210,60 @@ font-size: 20px;
         font-family: 'Courier New', Courier, monospace;
         font-size: 18px;
     }
+
+@media (max-width: 760px) {
+        .container-grid {
+            width: 75%;
+        }
+
+        .conteudo-header {
+            display: flex;
+            justify-content: center;
+        }
+
+        .conteudo-header a {
+             padding-left: 15px;
+        }
+
+        .texto-banner h1 {
+            text-align: center;
+        }
+
+        .imagem-sobre {
+            width: 100%;
+        }
+
+       .conteudo-sobre {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .texto-sobre {
+            width: 100%;
+            height: unset;
+         text-align: center;
+        }
+
+        .texto-endereco {
+            width: 90%;
+        }
+
+        .texto-endereco p {
+            font-size: 15px;
+            width: 90%;
+        }
+
+        .conteudo-endereco {
+            width: 100%;
+        }
+
+        .conteudo-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .mapa {
+         display: none;
+        }
+    }
